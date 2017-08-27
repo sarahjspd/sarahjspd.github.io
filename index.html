@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- no corespending closing tag. This is to tell the computer that this is a html file. its not enough to save it as html, cos it can be an xml file that looks alot like a html file-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarah's Place</title>
+    <!-- put the css (bootstrap) link below above the <link></link> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Profile_css.css" />
+</head>
+
+<body>
+    <div class="container-fluid body">
+        <div class="row">
+            <div class="col-md-12 header">
+            </div>
+        </div>
+        <!-- -Cover Page- -->
+        <div class="row">
+            <div class="col-md-12 coverpage">
+                <div class="site-wrapper">
+                    <div id="container">
+                        <div class="col-md-12 coverpic">
+                            <img class="coverpic" src="coverphoto.jpg" alt="(Cover-Photo)">
+                        </div>
+                        <div class="text">
+                            <div class="site-wrapper-inner">
+                                <div class="cover-container">
+                                    <div class="masthead clearfix">
+                                        <!--   <div class="row inner">
+                                    <div class="col-md-12 inner">
+		              
+		              <nav>
+		                <ul class="nav masthead-nav">
+		                  <li class="active"><a href="#">Home</a></li>
+		                  <li><a href="#aboutmetitle">About Me</a></li>
+		                  <li><a href="#projectstitle">Projects</a></li>
+		                  <li><a href="#contactmefulltitle">Contact</a></li>
+		                </ul>
+		              </nav>
+		            </div>
+                                </div> -->
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 col-md-offset-1 inner-cover">
+                                            <h1 class="cover-heading">Part Marketer</h1>
+                                            <p class="lead">Experienced Digital Marketer working to grow the business by reaching out to potential and existing customers through Paid and Social Media.</p>
+                                            <p class="lead">
+                                                <a href="#Projects" class="btn btn-lg btn-default">Learn more</a>
+                                            </p>
+                                        </div>
+                                        <div class="col-md-4 col-md-offset-2 inner-cover">
+                                            <h1 class="cover-heading">Part Web Developer</h1>
+                                            <p class="lead">Aspiring Web Developer that focuses on Front-end and Back-end Development.</p>
+                                            <p class="lead">
+                                                <a href="#Projects" class="btn btn-lg btn-default">Learn more</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -Cover Page- -->
+            <div id="navBlo" role="navigation">
+                <nav class="main-nav" data-content-field="navigation">
+                    <ul>
+                        <li class="aboutpage">
+                            <a href="#aboutmetitle">ABOUT</a>
+                        </li>
+                        <li class="projectspage">
+                            <a href="#projectstitle">PROJECTS</a>
+                        </li>
+                        <li class="contactpage">
+                            <a href="#contactmefulltitle">CONTACT ME</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <!-- - ABOUT ME SECTION - -->
+                <div class="row aboutmefull">
+                    <div class="col-md-12 aboutmetitle" id="aboutmetitle">
+                        <p class="bg-danger"><strong>ABOUT ME</strong></p>
+                    </div>
+                    <div class="row aboutmetextandpic">
+                        <div class="col-md-6 col-md-offset-1">
+                            <h4><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Here and Why</h4>
+                            <p>Born and raised in <code>Singapore</code></p>
+                            <p>Exploring Web Development to find end-to-end solutions to anyone or company hoping to use <code>Tech</code> to solve problems in Ecommerce</p>
+                            <h4><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>Programming Languages</h4>
+                            <p>HTML5,CSS3, Bootstrap, Ruby, Python (in-progress)</p>
+                            <h4><span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span>Software</h4>
+                            <p>Photoshop</p>
+                        </div>
+                        <div class="col-md-3 aboutmepic">
+                            <img class="aboutmeimg" src="3rdpic.png" alt="(Profile Picture)">
+                        </div>
+                    </div>
+                    <!-- <div class="row aboutmetitle2">
+						<div class="col-md-12 aboutmetitle2">
+						</div>
+					</div> -->
+                </div>
+            </div>
+            <!-- - ABOUT ME SECTION - -->
+            <!-- - PROJECTS SECTION - -->
+            <!-- - PROJECTS SECTION - -->
+            <!-- - CONTACT ME SECTION - -->
+            <div class="row contactmefull">
+                <div class="col-md-12 contactmefulltitle" id="contactmefulltitle">
+                    <p class="bg-danger"><strong>See A Business Opportunity? Let's Get in Touch!</strong></p>
+                </div>
+                <div id="container">
+                    <img class="contactmepic" src="pexels-photo.jpg" alt="Contact-me-Picture">
+                    <form>
+                        <div class="row contactform">
+                            <div class="col-md-12 col-xs-12 contactform">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label for="inputfirstname">First Name</label>
+                                        <input type="text" class="form-control" id="inputfirstname" placeholder="Jane">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputlastname">Last Name</label>
+                                        <input type="text" class="form-control" id="inputlastname" placeholder="Doe">
+                                    </div>
+                                    <div class="form-group-email">
+                                        <label for="inputemail">Email Address</label>
+                                        <p class="emailmsginput">
+                                            <input type="email" class="form-control" id="inputemail" placeholder="jane.doe@example.com">
+                                        </p>
+                                    </div>
+                                    <div class="form-group-message">
+                                        <label for="inputmessage">Message</label>
+                                        <p class="emailmsginput">
+                                            <textarea class="form-control" rows="3" id="inputmessage" placeholder="I would like to enquire about ..."></textarea>
+                                        </p>
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Send Message</button>
+                                </form>
+                            </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            <!-- - CONTACT ME SECTION - -->
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 footer">
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            <div class="backtotop">
+            <a href="#">Back to Top</a>
+            </div>
+        </div>
+</body>
+
+</html>
