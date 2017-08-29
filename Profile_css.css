@@ -4,6 +4,12 @@ div.header {
 	background-color: lightblue;
 }
 
+.coverpage {
+  background-image: url('coverphoto.jpg');
+  background-size: cover;
+  height: 100vh;
+
+}
 /*---Cover Page---*/
 
 /*
@@ -22,7 +28,7 @@ a:hover {
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
-  text-shadow: none;  Prevent inheritance from `body` 
+  text-shadow: none;  Prevent inheritance from `body`
   background-color: #fff;
   border: 1px solid #fff;
 }*/
@@ -32,23 +38,7 @@ a:hover {
  * Base structure
  */
 
-div.coverpage {
 
-	width: 100%;
-}
-
-div.site-wrapper {
-  
-	width: 100%;
-    
-}
-
-div.coverpic img {
-
-	width: 100%;
-	
-
-}
 
 div.text {
 
@@ -61,6 +51,8 @@ div.inner-cover {
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
   margin-top: 10%;
+
+
 }
 
 /*body {
@@ -109,7 +101,7 @@ div.inner-cover {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; 
+  color: #fff;
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
@@ -154,7 +146,7 @@ div.inner-cover {
  */
 
 /*.mastfoot {
-  color: #999;  IE8 proofing 
+  color: #999;  IE8 proofing
   color: rgba(255,255,255,.5);
 }*/
 
@@ -177,7 +169,7 @@ div.inner-cover {
   /*.site-wrapper-inner {
     vertical-align: middle;
   }
-   Handle the widths 
+   Handle the widths
   .masthead,
   .mastfoot,
   .cover-container {*/
@@ -196,14 +188,12 @@ div.inner-cover {
 /*---Cover Page---*/
 
 nav.main-nav {
-
-	position: absolute;
-	margin-left: 35%;
+	margin: 1%;
 }
 
 #navBlock {
 
-	padding: 0.8em;	
+	padding: 0.8em;
 
 }
 
@@ -213,20 +203,26 @@ nav.main-nav {
 	text-align: center;
 	list-style: none; /*this is to say don't want bullet point*/
 	padding: 1.2em;
-	
+	color: red;
 
+
+}
+
+#navBlo nav ul li a {
+
+	color: red;
 }
 
 #navBlo {
 
 	text-align: center;
 	width: auto;
-	padding: .25em .5em .33em !important;
+/*	padding: .25em .5em .33em !important;*/
 	color: green;
 
 }
 
-div.aboutmetitle {
+div.aboutmetitle  p {
 	text-align: center;
 	/*white-space: nowrap;
 	-webkit-animation: rightthenLeft 3s linear;
@@ -259,18 +255,21 @@ div.aboutmetextandpic p {
 	margin: 38px 0 38px 0;
 }
 
+div.aboutmefull{
+  height: 100vh;
+}
 
 div.aboutmetextandpic {
+  padding: 10%;
 
-	margin: 5em 2em 5em 2em;
-
-
+	/*margin: 5em 2em 5em 2em;*/
 }
 
 div.aboutmepic img {
-
 	display: inline-block;
-	margin-left: 44px;
+	/*margin-left: 44px;*/
+/*  height: auto;*/
+
 }
 
 
@@ -278,6 +277,7 @@ div.aboutmepic img {
 div.contactmefulltitle {
 
 	text-align: center;
+
 }
 
 div.form-group-email, div.form-group-message {
@@ -308,7 +308,7 @@ div.imageandform, img.contactmepic {
 div.form-group {
 
 	display: inline-block;
-	
+
 }
 
 /*div.contactform {
@@ -331,15 +331,18 @@ div.form-group {
  	margin-left:5%;
  }
 
- form {
-     position: absolute;
+ .form-inline {
+  
      top: 15%;
      left: 45%;
-     width: 40%;
-
-
+     padding-top: 15%;
+     padding-right: 10%;
  }
-}
+
+ .form-inline div {
+  
+     padding: 1%;
+ }
 
 /*div.form-group-email, div.form-group-message, div.form-group {
 
@@ -354,6 +357,13 @@ button.btn-default {
 
 	margin-top: 0.2em;
 
+
+}
+
+.contactmepicpage {
+  background-image: url('pexels-photo.jpg');
+  background-size: cover;
+  height: 100vh;
 
 }
 
